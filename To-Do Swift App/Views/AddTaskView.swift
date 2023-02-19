@@ -12,7 +12,7 @@ struct AddTaskView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 20){
-            Text("Add new task")
+            Text("Add a new task")
                 .font(.title3).bold()
                 .frame(maxWidth: .infinity, alignment: .leading)
             
